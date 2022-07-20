@@ -19,7 +19,7 @@ async function dropDownSelect(currency){
 }
 async function apiReq(inputCurrency){
 
-    let url  = `http://rest.coinapi.io/v1/exchangerate/${inputCurrency}/`;
+    let url  = `https://rest.coinapi.io/v1/exchangerate/${inputCurrency}/`;
     const params = {
         filter_asset_id:"BTC;ETH;USDT;BNB"
     };
